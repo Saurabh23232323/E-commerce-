@@ -1,0 +1,72 @@
+/* Checkout.css */
+
+.checkout-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  /* styles.css */
+/* CreditCardLogos.css */
+
+.credit-card-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-logo {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    margin: 0 10px; /* Adjust spacing between logos */
+  }
+  
+.paypal-logo {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+  .cart-summary {
+    margin-bottom: 20px;
+  }
+  
+  .cart-summary p {
+    font-weight: bold;
+  }
+  
+  .checkout-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .checkout-form input[type="text"],
+  .checkout-form input[type="email"],
+  .checkout-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .checkout-form input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .checkout-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .checkout-button:hover {
+    background-color: #0056b3;
+  }
+  
